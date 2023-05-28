@@ -16,6 +16,13 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>my-repository</id>
+			<name>My Repository</name>
+			<url>http://example.com/my-repo</url>
+		</repository>
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
